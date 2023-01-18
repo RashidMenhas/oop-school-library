@@ -1,4 +1,4 @@
-require_relative 'person'
+require './person'
 
 class Teacher < person
   def initialize(specialization, age, name, parents_permission)
