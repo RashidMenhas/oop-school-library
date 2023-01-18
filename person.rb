@@ -18,8 +18,6 @@ class Person
   public
 
   def can_use_services?
-    return unless (@parent_permission = true || of_age?)
-
-    true
+    of_age? || @parent_permission
   end
 end

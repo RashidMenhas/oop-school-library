@@ -59,9 +59,9 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 
-# 📖 OOP-In-Ruby <a name="about-project"></a>
+# 📖 oop-school-library <a name="about-project"></a>
 
-> OOP-In-Ruby is the implementation of oop in ruby language with person super-class and student, teacher as sub-class.
+> oop-school-library is the implementation of oop in ruby language with person super-class and student, teacher as sub-class.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,26 +69,6 @@ After you're finished please remove all the comments and instructions!
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://N/A.org/">N/A</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>Ruby</li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -140,21 +120,11 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-**you can run any one of these commands to install npm on your machine:**
-
-- npm i
-- npm install
-- sudo apt install npm
-
 ### Usage
 
 To run the project, execute the following command:
 
-- npm start.
-
-### Run tests
-
-- npm test.
+use irb or the the shell terminal directly.
 
 ### Deployment
 
