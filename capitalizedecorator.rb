@@ -6,5 +6,7 @@ class CapitalizeDecorator < BaseDecorator
     @nameable = nameable
   end
 
-  def correct_name; end
+  def correct_name
+    super.capitalize
+  end
 end
