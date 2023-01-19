@@ -7,6 +7,6 @@ class TrimmerDecorator < BaseDecorator
   end
 
   def correct_name
-    super.capitalize
+    super[0..9]
   end
 end
