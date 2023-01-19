@@ -1,8 +1,8 @@
-require 'BaseDecorator'
+require './basedecorator'
 
 class CapitalizeDecorator < BaseDecorator
   def initialize(nameable)
-    super
+    super()
     @nameable = nameable
   end
 
