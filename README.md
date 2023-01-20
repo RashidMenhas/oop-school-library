@@ -59,27 +59,6 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 
-# 📖 oop-school-library <a name="about-project"></a>
-
-> oop-school-library is the implementation of oop in ruby language with person super-class and student, teacher as sub-class.
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **We used oop peinciple in this project**
-- **We have one super class and two base class**
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
