@@ -5,7 +5,7 @@ require_relative 'teacher'
 require_relative 'rentals'
 require_relative 'classroom'
 require_relative 'nameable'
-
+# required class
 class App
   def initialize
     @book = []
