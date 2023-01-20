@@ -1,5 +1,5 @@
 require './basedecorator'
-require './person'
+require '.person'
 
 class CapitalizeDecorator < BaseDecorator
   def initialize(nameable)
