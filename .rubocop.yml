@@ -54,5 +54,3 @@ Layout/EndOfLine:
    Enabled: False
 Lint/MissingSuper:
    Enabled: false
-Metrics/MethodLength:
-  Max: 1000
