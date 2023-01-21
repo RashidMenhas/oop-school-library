@@ -52,3 +52,5 @@ Style/HashTransformValues:
   Enabled: false
 Lint/MissingSuper:
   Enabled: false
+Layout/EndOfLine:
+   Enabled: False
