@@ -1,4 +1,3 @@
-#!/usr/bin/env ruby
 require_relative 'app'
 # rubocop:disable Metrics/CyclomaticComplexity
 def main
@@ -8,13 +7,13 @@ def main
 
   puts "Welcome to School Library App!\n\n"
   while response != '7'
-    puts 'Please choose an option by enter in a number from 1 to 7:'
+    puts 'Please choose an option by enter in a number:'
     puts '1 - List all books'
     puts '2 - List all people'
     puts '3 - Create a person'
     puts '4 - Create a book'
     puts '5 - Create a rental'
-    puts '6 - List all rentals for a given id'
+    puts '6 - List all rental for a given id'
     puts '7 - Exit'
     response = gets.chomp
 
@@ -32,6 +31,7 @@ def main
     when '6'
       app.list_all_rentals
     when '7'
+      # *Have a way to quit the app.
       puts 'Thank you for using this app!'
     end
     puts "\n"
