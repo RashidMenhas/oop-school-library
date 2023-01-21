@@ -2,6 +2,7 @@ require_relative 'person'
 require_relative 'book'
 require_relative 'student'
 require_relative 'teacher'
+
 require_relative 'rentals'
 require_relative 'classroom'
 require_relative 'nameable'
@@ -60,9 +61,7 @@ class App
     age = gets.chomp
     puts 'Name:'
     name = gets.chomp
-    puts 'permission:'
-    permission = gets.chomp
-    teach = Teacher.new(specilaze, age, name, permission)
+    teach = Teacher.new(specilaze, age, name)
     @people.push(teach)
   end
 
